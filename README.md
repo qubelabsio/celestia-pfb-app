@@ -14,6 +14,10 @@ https://celestia-pfb.zone/
 
 
 
+https://github.com/qubelabsio/celestia-pfb-app/assets/61059709/1303947e-0db1-4233-aa46-2370581ca5e4
+
+
+
 ## Frontend Deployment
 
 ### Requirements
