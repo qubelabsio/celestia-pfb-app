@@ -636,7 +636,7 @@ const Celestia = () => {
       <hr />
       <hr />
       <div className="mt-6 mb-2 text-[#7B2BF9] flex justify-center">
-      <a href="" target="_blank" classname="text-[#7B2BF9] cursor-pointer">
+      <a href="https://github.com/qubelabsio/celestia-pfb-app" target="_blank" classname="text-[#7B2BF9] cursor-pointer">
         <img className="w-8 h-8" src={githubLogo} alt="Github" />
       </a>
       </div>
