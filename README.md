@@ -12,10 +12,7 @@ Celestia PFB App is a user-friendly web application designed for submitting PayF
 
 https://celestia-pfb.zone/
 
-
-
-https://github.com/qubelabsio/celestia-pfb-app/assets/61059709/1303947e-0db1-4233-aa46-2370581ca5e4
-
+https://github.com/qubelabsio/celestia-pfb-app/assets/61059709/cb759de2-eb80-4e36-a4f2-0b9e36932745
 
 
 ## Frontend Deployment
