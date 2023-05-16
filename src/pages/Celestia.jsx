@@ -310,7 +310,7 @@ const Celestia = () => {
               <div
                 className="btn py-1  md:py-0 md:w-2/6 lg:w-1/6  font-medium flex justify-center items-center cursor-pointer  hover:border-red-200 border-2 rounded-md bg-black text-white "
                 onClick={() => generateNamespaceId()}>
-                <div className="text-[14px] lg:text-[16px]  text-center">Generate ID</div>
+                <div className="text-[15px] lg:text-[16px]  text-center">Generate ID</div>
               </div>
 
             </div>
@@ -503,7 +503,7 @@ const Celestia = () => {
                         <h2 className="font-medium text-[15px]">
                           Date and Time:
                         </h2>
-                        <div className="font-medium text-gray-400  text-[14px]">
+                        <div className="font-medium text-gray-400  text-[15px]">
                           {response?.date || formattedDate || '-'}
                         </div>
                       </div>
@@ -511,7 +511,7 @@ const Celestia = () => {
                         <h2 className="font-medium text-[15px]">
                           Gas used:
                         </h2>
-                        <div className="font-medium text-gray-400 text-[14px]">
+                        <div className="font-medium text-gray-400 text-[15px]">
                           {response?.gas_used || '-'}
 
                         </div>
@@ -528,7 +528,7 @@ const Celestia = () => {
                         <h2 className="font-medium text-[15px]">
                           Height:
                         </h2>
-                        <div className="font-medium text-gray-400 text-[14px]">
+                        <div className="font-medium text-gray-400 text-[15px]">
                           {response?.height || '-'}
                         </div>
                       </div>
@@ -563,7 +563,7 @@ const Celestia = () => {
                       <h2 className="font-medium text-[15px]">
                           Transaction Link:
                       </h2>
-                      <a href={` https://testnet.mintscan.io/celestia-incentivized-testnet/txs/${response?.txhash}`} target="_blank" className="text-[#7B2BF9] hover:underline cursor-pointer text-[14px]">
+                      <a href={` https://testnet.mintscan.io/celestia-incentivized-testnet/txs/${response?.txhash}`} target="_blank" className="text-[#7B2BF9] hover:underline cursor-pointer text-[15px]">
 
                         {response?.txhash}
                         <TbExternalLink size={25} className=" mx-1 hover:text-[40px] inline" />
@@ -581,21 +581,21 @@ const Celestia = () => {
                           <div className="py-1 mb-1 w-full text-center md:w-3/12 md:mr-1 text-white bg-black rounded text-[15px]">
                             Namespace ID
                           </div>
-                          <div className="px-3 text-[14px]  font-normal whitespace-pre-wrap break-words w-8/12">{nameSpaceId || '-'}</div>
+                          <div className="px-3 text-[15px]  font-normal whitespace-pre-wrap break-words w-8/12">{nameSpaceId || '-'}</div>
                         </div>
 
                         <div className="flex flex-wrap w-full mb-1 mt-5">
                           <div className="py-1 max-h-8 mb-1 w-full text-center md:w-3/12 md:mr-1 text-white bg-[#7B2BF9] rounded text-[15px]">
                             Hex Message{'  '}
                           </div>
-                          <div className="px-3 text-[14px] font-normal whitespace-pre-wrap break-words w-full md:w-8/12 ">{stringToHex(payload?.messageData)}</div>
+                          <div className="px-3 text-[15px] font-normal whitespace-pre-wrap break-words w-full md:w-8/12 ">{stringToHex(payload?.messageData)}</div>
                         </div>
 
                         <div className="flex flex-wrap mt-5 w-full ml-0">
                           <div className="py-1 mb-1 w-full text-center md:w-3/12 md:mr-1 text-white bg-black rounded text-[15px]">
                             Node IP
                           </div>
-                          <div className="px-3 text-[14px]  font-normal whitespace-pre-wrap break-words w-8/12">{nodeIP || DEFUALT_NODE_IP}</div>
+                          <div className="px-3 text-[15px]  font-normal whitespace-pre-wrap break-words w-8/12">{nodeIP || DEFUALT_NODE_IP}</div>
                         </div>
 
                       </div>
