@@ -279,8 +279,8 @@ const Celestia = () => {
                 colors={["#040404"]}
               />
             </div>
-              // <span className="text-[16px] flex items-center"> <BsFillCircleFill className="text-red-500 mr-2" size={18} /> API: Offline</span>
-              : nodeActiveStatus == 1 ? <span className="text-[16px]  flex items-center"> <BsFillCircleFill className="text-green-500 mr-2" size={18} /> API: Online</span>
+              // <span className="text-[16px] flex items-center"> <BsFillCircleFill className="text-red-500 mr-2" size={18} /> Node Offline</span>
+              : nodeActiveStatus == 1 ? <span className="text-[16px]  flex items-center"> <BsFillCircleFill className="text-green-500 mr-2" size={18} /> Node Online</span>
                 : <span className="text-[16px] flex items-center"> <BsFillCircleFill className="text-red-500 mr-2" size={18} />  Offline</span>
 
           }
