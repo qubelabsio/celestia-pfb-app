@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="bg-[#f5f5f5]">
+    <div>
       <Celestia />
     </div>
   );
