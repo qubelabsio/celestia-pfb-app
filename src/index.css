@@ -7,4 +7,8 @@
 body{
   font-family: 'Inter', sans-serif;
   background-color: #f4f4f4;
+  background-image: url(https://blog.celestia.org/content/images/2021/09/header-bg-861e0242f0c2149da928dd01d1c3a486-1.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
